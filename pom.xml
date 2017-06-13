@@ -62,7 +62,7 @@
          <snapshotRepository>
                 <id>internal</id>5
             <name>Internal Releases</name>
-            <url>http://52.89.75.176:8081/nexus/content/repositories/releases/</url>
+            <url>http://52.89.75.176:8081/nexus/content/repositories/snapshots/</url>
        </snapshotRepository>
   </distributionManagement>
 
