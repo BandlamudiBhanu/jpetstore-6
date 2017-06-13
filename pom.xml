@@ -60,7 +60,7 @@
             <url>http://52.89.75.176:8081/nexus/content/repositories/releases/</url>
             </repository>
          <snapshotRepository>
-                <id>internal</id>5
+                <id>internal</id>
             <name>Internal Releases</name>
             <url>http://52.89.75.176:8081/nexus/content/repositories/snapshots/</url>
        </snapshotRepository>
