@@ -54,6 +54,16 @@
       <name>Mybatis GitHub Pages</name>
       <url>git:ssh://git@github.com/mybatis/jpetstore-6.git?gh-pages#</url>
     </site>
+     <repository>
+            <id>internal</id>
+            <name>Internal Releases</name>
+            <url>http://52.89.75.176:8081/nexus/content/repositories/releases/</url>
+            </repository>
+         <snapshotRepository>
+                <id>internal</id>5
+            <name>Internal Releases</name>
+            <url>http://52.89.75.176:8081/nexus/content/repositories/releases/</url>
+       </snapshotRepository>
   </distributionManagement>
 
   <dependencies>
@@ -229,6 +239,32 @@
         </pluginManagement>
       </build>
     </profile>
+    <profile>
+           <id>releases</id>
+           <build>
+                  <plugins>
+                         <plugin>
+                                <groupid>org.sonatype.plugins</groupid>
+                                <artifactid>nexus-staging-maven-plugin</artifactid>
+                                <version>1.5.1</version>
+                                <executions>
+                                       <execution>
+                                              <id>default-deploy</id>
+                                              <phase>deploy</phase>
+                                              <goals>
+                                                     <goal>deploy</goal>
+                                                     </goals>
+                                              </execution>
+                                       </executions>
+                                <configuration>
+                                       <serverid>nexus-releases</serverid>
+                                       <nexusUrl>http://52.89.75.176:8081/nexus/</nexusUrl>
+                                       <skipStaging>true</skipStaging>
+                                       </configuration>
+                                </plugin>
+                         </plugins>
+                  </build>
+           </profile>
     <!-- Profiles for Application Server -->
     <profile>
       <id>tomcat90</id>
