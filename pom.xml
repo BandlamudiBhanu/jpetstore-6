@@ -33,7 +33,7 @@
 
   <name>JPetStore Demo 6</name>
   <url>http://www.mybatis.org</url>
-
+<!--
   <scm>
     <url>http://github.com/mybatis/jpetstore-6</url>
     <connection>scm:git:ssh://github.com/mybatis/jpetstore-6.git</connection>
@@ -48,6 +48,7 @@
     <system>Travis CI</system>
     <url>https://travis-ci.org/mybatis/jpetstore-6</url>
   </ciManagement>
+-->
   <distributionManagement>
     <site>
       <id>gh-pages</id>
