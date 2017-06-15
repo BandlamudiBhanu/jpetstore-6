@@ -59,9 +59,9 @@
     </site>
 -->
      <repository>
-            <id>Nexus OSS</id>
+            <id></id>
             <name>Internal Releases</name>
-            <url>http://52.89.75.176:8081/nexus/content/repositories/releases/</url>
+            <url>http://52.89.75.176:8081/nexus/content/repositories/Releases/</url>
             </repository>
          <!--
          <snapshotRepository>
@@ -212,7 +212,7 @@
                             <goal>deploy-file</goal>
                         </goals>
                         <configuration>
-                            
+                          <file>jpetstore-6.war</file>
                             <groupId>MyProjectMaster</groupId>
                             <artifactId>jpetstore.war</artifactId>
                             <version>10.0</version>
