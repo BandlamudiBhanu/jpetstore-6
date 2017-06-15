@@ -31,6 +31,12 @@
   <artifactId>jpetstore</artifactId>
   <version>6.0.3-SNAPSHOT</version>
   <packaging>war</packaging>
+       <properties>
+        <baseNexusURL>http://52.89.75.176:8081/nexus/</baseNexusURL>
+        <targetRepositoryID>Releases</targetRepositoryID>
+        <package.final.name>MyProjectMaster.jpetstore-6</package.final.name>
+    </properties>
+
 <!--
   <name>JPetStore Demo 6</name>
   <url>http://www.mybatis.org</url>
@@ -59,7 +65,7 @@
     </site>
 -->
      <repository>
-            <id></id>
+            <id>Releases</id>
             <name>Internal Releases</name>
             <url>http://52.89.75.176:8081/nexus/content/repositories/Releases/</url>
             </repository>
