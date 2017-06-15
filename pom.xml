@@ -214,7 +214,7 @@
                         <configuration>
                           <file>/var/lib/jenkins/workspace/NexusConfigByPOM/target/jpetstore.war</file>
                             <groupId>MyProjectMaster</groupId>
-                            <artifactId>jpetstore.war</artifactId>
+                            <artifactId>jpetstore</artifactId>
                             <version>10.0</version>
                             <packaging>war</packaging>
                             <generatePom>true</generatePom>
