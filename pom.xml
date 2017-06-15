@@ -59,7 +59,7 @@
     </site>
 -->
      <repository>
-            <id>ProjectMaster2</id>
+            <id>Nexus OSS</id>
             <name>Internal Releases</name>
             <url>http://52.89.75.176:8081/nexus/content/repositories/releases/</url>
             </repository>
