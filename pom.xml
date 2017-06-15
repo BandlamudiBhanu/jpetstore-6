@@ -313,6 +313,7 @@
         </pluginManagement>
       </build>
     </profile>
+         <!--
     <profile>
            <id>releases</id>
            <build>
@@ -340,6 +341,7 @@
                          </plugins>
                   </build>
            </profile>
+-->
     <!-- Profiles for Application Server -->
     <profile>
       <id>tomcat90</id>
