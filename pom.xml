@@ -212,7 +212,7 @@
                             <goal>deploy-file</goal>
                         </goals>
                         <configuration>
-                          <file>jpetstore-6.war</file>
+                          <file>/var/lib/jenkins/workspace/NexusConfigByPOM/target/jpetstore.war</file>
                             <groupId>MyProjectMaster</groupId>
                             <artifactId>jpetstore.war</artifactId>
                             <version>10.0</version>
